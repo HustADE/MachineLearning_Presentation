@@ -1,2 +1,2 @@
 # MachineLearningPresentation
-机器学习项目组每周例会涉及的机器学习汇报相关文档。
+机器学习项目组例会涉及的机器学习汇报文档。
