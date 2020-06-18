@@ -1,0 +1,194 @@
+body {
+    background: url("../img/hust.png") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.6)!important;
+    font-size: 16px!important;
+}
+
+label.control-label {
+    color: rgb(0, 120, 60)!important;
+}
+
+div#body {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+div#alert {
+    width: 30%;
+    position: fixed;
+    top: 42%;
+    left: 36%;
+    text-align: center;
+    z-index: 10;
+    display: none;
+}
+
+div.control-btns {
+    margin-top: -5.5%;
+    margin-left: 58%;
+}
+
+div.radio-circle, div.checkbox-square {
+    border: 1px solid rgb(0, 120, 60);
+    width: 18px;
+    height: 18px;
+}
+
+div.radio-circle {
+    padding: 2px;
+    border-radius: 9px;
+}
+
+div.radio-checked-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: rgb(0, 120, 60);
+}
+
+div.radio-text, div.checkbox-text {
+    margin-top: -16%;
+    margin-left: 24px;
+}
+
+div.checkbox-square {
+    border-radius: 2px;
+}
+
+div.checkbox-checked-square {
+    width: 16px;
+    height: 16px;
+    /* font-family: 'STSong'; */
+    font-size: small;
+    font-weight: 600;
+    background-color: rgb(0, 120, 60);
+    color: white;
+    display: none;
+}
+
+div.master-dissertation {
+    margin-top: 1%;
+}
+
+div.phd-dissertation {
+    margin-left: 48%;
+    margin-top: -8%;
+}
+
+div#instruction-panel, div#info-panel {
+    position: fixed;
+    margin-top: 10%;
+    /* margin-sleft: +2%; */
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.15);
+    /* border: 0px; */
+    font-size: 15px;
+}
+
+div#instruction-panel {
+    margin-left: +2%;
+}
+
+div#info-panel {
+    margin-left: +1%;
+}
+
+div.panel-heading {
+    background-color: rgba(0, 180, 90, 0.15)!important;
+}
+
+button.control-btn {
+    font-size: 16px!important;
+    margin-left: 6px;
+    background: rgb(0, 120, 60)!important;
+}
+
+button.control-btn:hover {
+    margin-left: 6px;
+    background: rgb(0, 150, 60)!important;
+}
+
+button.control-btn:active {
+    margin-left: 6px;
+    background: rgb(0, 90, 60)!important;
+}
+
+span#result {
+    color: rgb(0, 60, 120);
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+span#alert-content{
+    font-weight: bold;
+}
+
+span.bold-green-font {
+    font-weight: bold;
+    color: rgb(0, 120, 60);
+}
+
+span.bold-red-font {
+    font-weight: bold;
+    color: rgb(240, 36, 36);
+}
+
+#select-ref-type, #select-ref-type:hover, #select-ref-type:active {
+    background-color: rgba(255, 255, 255, 0.6);
+    line-height: 90%;
+}
+
+#select-ref-type, #select-ref-type:hover, #select-ref-type:active, ul.dropdown-menu {
+    left: +1px;
+    width: 197px;
+}
+
+.selected-option {
+    text-align: left;
+    font-size: 16px;
+}
+
+.caret {
+    transition: transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;       /* Firefox 4 */
+    -webkit-transition: -webkit-transform 0.3s; /* Safari and Chrome */
+    -o-transition: -o-transform 0.3s;           /* Opera */
+}
+
+.rotate-caret {
+    /* text-align: right; */
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);       /* IE 9+ */
+    -moz-transform: rotate(180deg);      /* Firefox */
+    -webkit-transform: rotate(180deg);   /* Safari and Chrome */
+    -o-transform: rotate(180deg);        /* Opera */
+}
+
+a.options:hover {
+    background-color: rgb(0, 120, 60);
+}
+
+a.bold-green-anchor {
+    color: rgb(0, 120, 60);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a.bold-green-anchor:hover, a.bold-green-anchor:active {
+    color: rgb(0, 60, 30);
+    font-weight: bold;
+}
+
+h1, label {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
