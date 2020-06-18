@@ -51,8 +51,8 @@ function checkboxEvent() {
     // 当“作者多于3人”复选框选中时，作者2和作者3应为必填项
     if ($("#author-more-than-3").val() == "false") {
         $("#author-more-than-3").val("true");
-        $("#author-label-2").html("作者2<span style=\"color: rgb(180, 36, 36); font-weight: bold;\">(*)</span>");
-        $("#author-label-3").html("作者3<span style=\"color: rgb(180, 36, 36); font-weight: bold;\">(*)</span>");
+        $("#author-label-2").html("作者2<span class=\"bold-red-font\">(*)</span>");
+        $("#author-label-3").html("作者3<span class=\"bold-red-font\">(*)</span>");
     } else {
         $("#author-more-than-3").val("false");
         $("#author-label-2").html("作者2");
